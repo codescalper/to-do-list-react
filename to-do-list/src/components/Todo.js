@@ -8,7 +8,7 @@ export const Todo  = () => {
         <div className='child'>
         {/* <figure> element to mark up a photo in a document, and a <figcaption> element to define a caption for the photo:<figure> */}
         <figure>
-            <img src='.\logo.svg' width={50} height={50} alt='Todo-list logo codescalper' />
+            <img src='.\logo.png' width={50} height={50} alt='Todo-list logo codescalper' />
             <figcaption>Create your to-do list here</figcaption>
         </figure>
         <div className='addItems'>
