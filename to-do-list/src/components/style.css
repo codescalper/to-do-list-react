@@ -95,8 +95,11 @@ input:focus {
   font-size: 2rem;
 }
 .fa:hover {
+ 
   color: rgb(27, 252, 245);
 }
+
+
 
 .fa-plus:before {
   content: "\f067";
