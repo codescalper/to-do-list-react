@@ -1,11 +1,24 @@
-import React, {useState} from 'react'
+import React, {useState,useEffect} from 'react'
 import './style.css'
+
+// getting localStorage Data
+
+function getLocalData(){
+    const list = localStorage.getItem("todolist");
+  
+    if(list){
+      return JSON.parse(list);
+  
+    }else{
+      return [];
+    }
+  }
 
 
 export const Todo  = () => {
 
     const [inputData , setInputData] = useState("");
-    const [item , setItem] = useState([]);
+    const [item , setItem] = useState(getLocalData());
     
     function addItem(){
         if(!inputData){
@@ -35,12 +48,16 @@ export const Todo  = () => {
         setItem([]);
     }
 
+    useEffect(() => {
+        localStorage.setItem("todolist", JSON.stringify(item));
+      }, [item]);
+
   return (
     <div className='main'>
         <div className='child'>
         {/* <figure> element to mark up a photo in a document, and a <figcaption> element to define a caption for the photo:<figure> */}
         <figure>
-            <img src='.\logo.svg' width={50} height={50} alt='Todo-list logo codescalper' />
+            <img src='.\logo.png' width={50} height={50} alt='Todo-list logo codescalper' />
             <figcaption>Create your to-do list here</figcaption>
         </figure>
         <div className='addItems'>
