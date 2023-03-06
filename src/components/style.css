@@ -1,12 +1,10 @@
 /* FUll Code on https://github.com/codescalper/to-do-list-react/tree/master */
 
-
-
 * {
   margin: 10;
   padding: 10;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html {
@@ -18,7 +16,6 @@ html {
   background: #060822;
   display: flex;
   justify-content: center;
- 
 }
 
 .child {
@@ -36,7 +33,7 @@ html {
   font-size: 2.2rem;
   padding-top: 2rem;
   text-transform: capitalize;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 input {
@@ -95,11 +92,8 @@ input:focus {
   font-size: 2rem;
 }
 .fa:hover {
- 
   color: rgb(27, 252, 245);
 }
-
-
 
 .fa-plus:before {
   content: "\f067";
@@ -125,7 +119,7 @@ input:focus {
   align-items: center;
 }
 .eachItem:hover {
-  background: rgb(249, 249, 249); 
+  background: rgb(249, 249, 249);
   color: rgb(85, 41, 220);
 }
 .btn {
@@ -185,4 +179,75 @@ input:focus {
   letter-spacing: 0.05em;
   -webkit-transform: translateY(0) scale(1, 1);
   transform: translateY(0) scale(1, 1);
+}
+.App-footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.fa-github,
+.fa-youtube,
+.fa-linkedin,
+.fa-globe {
+  font-size: 24px;
+  margin: 0 10px;
+}
+.App-footer {
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #ffffff;
+  box-shadow: 0 -10px 20px 0 rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+
+.fa {
+  font-size: 24px;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.fa-github:hover {
+  color: #28a745;
+}
+
+.fa-youtube:hover {
+  color: #ff0000;
+}
+
+.fa-linkedin:hover {
+  color: #0e76a8;
+}
+
+.fa-globe:hover {
+  color: #800080;
+}
+
+.border-glow {
+  border-color: #ffffff;
+  animation: glow 1s ease-out infinite alternate;
+}
+
+@keyframes glow {
+  to {
+    border-color: #ffcc00;
+    box-shadow: 0 0 10px #ffcc00;
+  }
 }
