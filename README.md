@@ -22,6 +22,17 @@
   <li>View your complete To-Do list</li>
 </ul>
 
+<h2>Technology Stack</h2>
+<ul>
+  <li>React</li>
+  <li>JavaScript</li>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
+
+<h2>API</h2>
+<p>This project consumes the OpenWeatherMap API to fetch the current weather information of a city. To use this app, you need to sign up for a free API key from <a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap</a> and replace the API key in the <code>url</code> variable of the <code>getWeatherInfo</code> function in the <code>Weather</code> component.</p>
+<!-- Add a section on how to contribute to the project -->
 <!-- Add a section on how to contribute to the project -->
 <h2>Contributing</h2>
 <p>Contributions are always welcome! Here's how you can contribute to this project:</p>
