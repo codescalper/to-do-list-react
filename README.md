@@ -5,7 +5,7 @@
 <p>This is a simple To-Do List app built using React.</p>
 
 <!-- Add a screenshot or image of your app -->
-<img src="screenshot.png" alt="Screenshot of To-Do List App">
+<img src="https://cdn.discordapp.com/attachments/1076035070135119912/1084082405545082910/image.png" alt="To-Do List App Mayank Singh">
 
 <!-- Add instructions on how to run the app -->
 <h2>How to run the app</h2>
@@ -30,9 +30,6 @@
   <li>CSS</li>
 </ul>
 
-<h2>API</h2>
-<p>This project consumes the OpenWeatherMap API to fetch the current weather information of a city. To use this app, you need to sign up for a free API key from <a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap</a> and replace the API key in the <code>url</code> variable of the <code>getWeatherInfo</code> function in the <code>Weather</code> component.</p>
-<!-- Add a section on how to contribute to the project -->
 <!-- Add a section on how to contribute to the project -->
 <h2>Contributing</h2>
 <p>Contributions are always welcome! Here's how you can contribute to this project:</p>
@@ -50,4 +47,4 @@
 
 <!-- Add a section on how to contact you -->
 <h2>Contact</h2>
-<p>If you have any questions or suggestions about this project, please feel free to contact me at <a href="mailto:youremail@example.com">youremail@example.com</a>.</p>
+<p>If you have any questions or suggestions about this project, please feel free to contact me at <a href="mailto:mayankyt22@gmail.com">mayankyt22@gmail.com</a>.</p>
