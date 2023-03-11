@@ -70,13 +70,21 @@ export const Todo = () => {
     localStorage.setItem("todolist", JSON.stringify(item));
   }, [item]);
 
+  const handleKeyDown = (e) => {
+    if (e.keyCode === 13) {
+      addItem();
+    }
+  };
+
+
+
   return (
     <div className="main">
       <div className="child">
         {/* <figure> element to mark up a photo in a document, and a <figcaption> element to define a caption for the photo:<figure> */}
         <figure>
           <img
-            src=".\logo.png"
+            src=".\list.png"
             width={50}
             height={50}
             alt="Todo-list logo codescalper"
@@ -90,6 +98,7 @@ export const Todo = () => {
             className="form-ctrl"
             value={inputData}
             onChange={(e) => setInputData(e.target.value)}
+            onKeyDown={handleKeyDown}
           />
           {toggleButton ? (
             <i
