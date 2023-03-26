@@ -65,7 +65,7 @@ function Footer() {
             }}
           ></i>
         </a>
-        <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://mayankonweb.pages.dev/" target="_blank" rel="noopener noreferrer">
           <i
             className="fas fa-globe"
             style={{
